@@ -10,7 +10,7 @@ const HolaMundo = () => {
                 <img src="https://arepa.s3.amazonaws.com/react.png" alt="React"/>
                 {isTrue  ? <h4> Esto es verdadero </h4> : <h5>Soy falso</h5> }
             </div>
-        )
+    )
 };
 
 export default HolaMundo;
