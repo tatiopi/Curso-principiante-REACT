@@ -14,3 +14,18 @@ const helloWorld = () => (
 
 export default helloWorld;
 ``` 
+# Crear un contenedor donde tendremos nuestros componentes
+
+Creamos una carpeta llamada containers dentro de src , esta contedra el siguiente codigo
+
+``` javascript
+import React from 'react';
+import Header from '../components/Header';
+
+const App = () => ( <div className = "App">
+        <Header/>
+    </div>
+);
+```
+
+App nos ayudara a estructurar nuesrtos componentes
