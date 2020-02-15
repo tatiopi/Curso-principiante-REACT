@@ -12,7 +12,7 @@
 - añadimos a package.json una entrada nueva en la seccion de scripts :
     * "build": "webpack --mode production"
 
-# Instalar webpack-dev--server
+# Instalar webpack-dev-server
 
 - npm install webpack-dev-server --save-dev
 - Añadir a package.json seccion de scripts
