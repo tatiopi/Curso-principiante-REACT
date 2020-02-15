@@ -29,3 +29,7 @@
 - npm install --save-dev eslint babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y
 
 - añadimos el archivo .eslintrc para configuracion
+
+# Instalar loader para nuestros archivos
+
+npm install file-loader --save-dev
