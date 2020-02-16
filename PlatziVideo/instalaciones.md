@@ -33,3 +33,20 @@
 # Instalar loader para nuestros archivos
 
 npm install file-loader --save-dev
+
+# JSON Server FAKE API
+
+Vamos a usar JSON Server para crear una Fake API: una API ““falsa”” construida a partir de un archivo JSON que nos permite preparar nuestro código para consumir una API de verdad en el futuro.
+
+sudo npm install json-server -g
+
+- Cargar el json : 
+``` JavaScript
+json-server initalState.json
+```
+
+# Error al actualizar a NODE 12 cuando la version de tu codigo era 8
+
+> Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 12.x
+
+ npm rebuild node-sass
