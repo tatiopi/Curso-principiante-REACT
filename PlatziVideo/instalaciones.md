@@ -50,3 +50,7 @@ json-server initalState.json
 > Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 12.x
 
  npm rebuild node-sass
+
+# Añadir proptypes
+
+ npm i prop-types
