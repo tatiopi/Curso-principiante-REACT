@@ -12,7 +12,7 @@
 - añadimos a package.json una entrada nueva en la seccion de scripts :
     * "build": "webpack --mode production"
 
-# Instalar webpack-dev--server
+# Instalar webpack-dev-server
 
 - npm install webpack-dev-server --save-dev
 - Añadir a package.json seccion de scripts
@@ -33,6 +33,7 @@
 # Instalar loader para nuestros archivos
 
 npm install file-loader --save-dev
+<<<<<<< HEAD
 
 # JSON Server FAKE API
 
@@ -50,3 +51,5 @@ json-server initalState.json
 > Node Sass could not find a binding for your current environment: Windows 64-bit with Node.js 12.x
 
  npm rebuild node-sass
+=======
+>>>>>>> 7e1ae4d1df7bfc2d450079bd07f31a5e9d847314
